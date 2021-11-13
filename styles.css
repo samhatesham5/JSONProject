@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&family=Grand+Hotel&family=Lora&family=Yeseva+One&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F1EEE5;
+  font-family: 'Lora', serif;
+}
+
+/*You can style the cards!*/
+
+.heroSection {
+  display: flex;
+  background-image: url('images/heroCropped.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Gluten', cursive;
+  font-size: 15vmin;
+  color: #FFA05C;
+  text-shadow: 4px 5px 5px rgb(150,150,150);
+}
+
+.subHeader {
+  font-size: 7vmin;
+  font-style: italic;
+
+}
+
+#topTen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.contentCard {
+  margin: 5vmin;
+  background-color: #74c396;
+  padding: 5vmin;
+  border-radius: 18px;
+  color: #027a4c;
+  text-align: center;
+  font-family: 'Yeseva One', cursive;
+}
+
+.titleHeader {
+  font-family: 'Gluten', cursive;
+}
+
+.contentCard > img {
+  width: 40vmin;
+  padding: 1vmin;
+}
+
+.disclaimer {
+  font-family: 'Yeseva One', cursive;
+  text-align: center;
+  padding: 5vmin;
+  color: #1da68f;
+}
