@@ -5,15 +5,32 @@
     <title></title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/@glidejs/glide@3.3.0/dist/css/glide.core.min.css">
   </head>
   <body>
-  <div class="heroSection">
-    <p>PIXAR PICKS</p>
-    <p class="subHeader">Sam's Favorite Pixar Movies</p>
+    <div class="heroSection">
+      <p>PIXAR PICKS</p>
+      <p class="subHeader">Sam's Favorite Pixar Movies</p>
+    </div>
+  <div class="glide">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+      <li class="glide__slide"><img class="one" src="images/heroCropped.jpg" alt=""></li>
+      <li class="glide__slide"><img class="two" src="images/coco.png" alt=""></li>
+      <li class="glide__slide"><img class="three" src="images/up.jpg" alt=""></li>
+    </ul>
+    </div>
+    </div>
+  <!--
+  <p class="header">PIXAR PICKS</p>
+  <p class="subHeader">Sam's Favorite Pixar Movies</p>
   </div>
+-->
   <h2 class="disclaimer">In No Particular Order, Here Are My Top 10: </h2>
   <div id="topTen">
   </div>
-  </body>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide" charset="utf-8"></script>
   <script src="script.js" charset="utf-8"></script>
+</body>
 </html>

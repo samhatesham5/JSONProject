@@ -115,4 +115,19 @@ function creatingElements(pixarDatabase) {
 
   //adding it all together//
   mainDiv.appendChild(contentCard);
-}
+
+  //Attempting to Lazy Load Images//
+  const el = document.querySelector('img');
+  const observer = lozad(el);
+  observer.observe();
+
+};
+
+//glide.js//
+
+if (document.querySelector('.glide')) {
+    new Glide('.glide', {
+        autoplay: 4000
+    }).mount()
+
+};

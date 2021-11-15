@@ -15,22 +15,25 @@ body {
 
 .heroSection {
   display: flex;
-  background-image: url('images/heroCropped.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: 'Gluten', cursive;
-  font-size: 15vmin;
+  padding: 5px;
+  font-size: 7vmin;
   color: #FFA05C;
   text-shadow: 4px 5px 5px rgb(150,150,150);
+  background-color: #1da68f;
 }
 
+.one, .two, .three {
+  width: 100%;
+  height: 80vh;
+}
+
+
 .subHeader {
-  font-size: 7vmin;
+  font-size: 3vmin;
   font-style: italic;
 
 }
